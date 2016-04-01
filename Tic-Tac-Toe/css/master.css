@@ -1,0 +1,81 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: #17191a;
+}
+.contenent {
+  width: 70%;
+  height: 950px;
+  margin: auto;
+  padding: 0;
+
+  background-color: #2b2b2b;
+}
+.titre {
+  margin-top: 0;
+  padding: 37px;
+
+  color: #f7f7f7;
+  font-size: 57px;
+  font-family:'Aria',Geneva, sans-serif;
+  text-align: center;
+}
+.jeu {
+  position: relative;
+  top : 57px;
+  left: 70px;
+  width: 322px;
+
+  border-radius: 7px;
+
+  background-color: #878484;
+}
+.joueur {
+  position: relative;
+  top: -187px;
+  left: 532px;
+  width: 50%;
+
+  font-size: 47px;
+  font-family: 'Aria',Geneva, sans-serif;
+  color: #f7f7f7;
+  text-align: center;
+}
+.button {
+  width: 70px;
+  height: 27px;
+  position: relative;
+  top : 21px;
+  left: 84px;
+
+  border-radius: 7px;
+  border-color: #878484;
+
+  background-color: #2b2b2b;
+
+  color: #f7f7f7;
+  font-size: 17px;
+  font-family:'Aria',Geneva,sans-serif;
+}
+.grilles {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 4px;
+  padding: 0;
+
+  background-color: #f7f7f7;
+
+  border: black solid 1px;
+}
+.player1 {
+  background-color: green;
+}
+.player2 {
+  background-color: red;
+}
